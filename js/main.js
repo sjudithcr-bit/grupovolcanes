@@ -42,10 +42,11 @@
 
   /* ---------- línea de tiempo ---------- */
   var TL = [
-    { y: 'Volcanes', s: 'Colima', t: 'Comercial Los Volcanes de Colima', p: 'Nació como una pequeña comercializadora local y, con más de 35 años de experiencia, hoy opera con la mayoría de los ingenios del país. Atiende el Centro y Pacífico.', l: 'logo-volcanes.png' },
-    { y: 'Impulsora', s: 'Bajío', t: 'Impulsora de Servicios', p: 'Extiende la cobertura del grupo hacia el Bajío con la misma atención personalizada, inventarios bien ubicados y entrega en tiempo.', l: 'logo-impulsora.png' },
-    { y: 'Azúcares', s: 'Centro y Sureste', t: 'Azúcares Selectos de México', p: 'Lleva el servicio del grupo al Centro y Sureste del país, con precios competitivos y garantía de suministro.', l: 'logo-azucares.png' },
-    { y: 'Cereazúcar', s: 'Se suma en 2021', t: 'Cereazúcar', p: 'Se suma al grupo en 2021 para la distribución regional de azúcar y granos en Colima, la Costa Alegre, el sur de Jalisco y la frontera con Michoacán.', l: 'cereazucar.png' }
+    { y: '1998', s: 'Volcanes', t: 'Comercial Los Volcanes de Colima', p: 'Nació como una pequeña comercializadora local y, con más de 35 años de experiencia, hoy opera con la mayoría de los ingenios del país. Atiende el Centro y Pacífico.', l: 'logo-volcanes.png' },
+    { y: '2001', s: 'Impulsora', t: 'Impulsora de Servicios y Azúcar', p: 'Extiende la cobertura del grupo hacia el Bajío con la misma atención personalizada, inventarios bien ubicados y entrega en tiempo.', l: 'logo-impulsora.png' },
+    { y: '2002', s: 'Azúcares Selectos', t: 'Azúcares Selectos de México', p: 'Lleva el servicio del grupo al Centro y Sureste del país, con precios competitivos y garantía de suministro.', l: 'logo-azucares.png' },
+    { y: '2021', s: 'Cereazúcar', t: 'Cereazúcar', p: 'Se suma al grupo en 2021 para la distribución regional de azúcar y granos en Colima, la Costa Alegre, el sur de Jalisco y la frontera con Michoacán.', l: 'cereazucar.png' },
+    { y: '2022', s: 'TOCA', t: 'TOCA', p: 'Es la empresa del grupo que cuenta con las bodegas para almacenar, envasar y cribar el producto.', l: 'toca.png' }
   ];
   var tlY = $('#tlYears'), tlI = 0, tlTimer = null, tlPaused = false;
   if (tlY) {
